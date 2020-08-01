@@ -1,0 +1,95 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.header {
+  height: 14vh;
+  padding: 0 20%;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.first {
+  height: 86vh;
+  position: relative;
+}
+.first-bg {
+  height: 86vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("bg.jpg");
+  opacity: 0.3;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  background-size: cover;
+}
+.first-article h2,
+.first-article h1 {
+  text-align: center;
+}
+.first-article h2 {
+  font-weight: normal;
+}
+.first-info {
+  height: 60%;
+  z-index: 100;
+}
+.first-article {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  padding: 3% 10%;
+}
+.uk-article-title {
+  font-weight: 500;
+}
+.second-article {
+  width: 80%;
+}
+.target {
+  display: flex;
+}
+.target-image {
+  width: 35%;
+}
+.cert {
+  text-align: center;
+}
+.temp {
+  display: flex;
+  margin-bottom: 5%;
+}
+.temp-img {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.temp-info {
+  width: 85%;
+}
+.form {
+  width: 40%;
+  margin: auto;
+}
+.form input {
+  margin-bottom: 10px;
+}
