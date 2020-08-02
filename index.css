@@ -134,7 +134,7 @@ section {
     text-align: center;
   }
   nav a {
-    width: 50%;
+    font-size: 0.8em;
   }
   nav a:last-child {
     display: none;
