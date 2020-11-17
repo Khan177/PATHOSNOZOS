@@ -26,8 +26,18 @@ nav a:hover {
   text-decoration: underline;
 }
 .first {
-  height: 86vh;
+  padding: 50px 10%;
   position: relative;
+  display:flex;
+}
+.first-left{
+  width: 50%;
+}
+.first-right{
+  width: 50%;
+}
+.first img {
+  width: 100%
 }
 .first-bg {
   height: 86vh;
@@ -129,6 +139,12 @@ section {
   color: white !important;
 }
 
+footer{
+  padding: 2% 10%;
+}
+
+
+
 @media screen and (max-width: 800px) {
   nav {
     text-align: center;
@@ -141,6 +157,18 @@ section {
   }
   .target-image {
     display: none;
+  }
+  .first{
+    flex-direction: column;
+    text-align: center;
+  }
+  .first-left h1{
+    text-align: center;
+    width: 100%;
+  }
+  .first-left, .first-right{
+    text-align: center;
+    width: 100%;
   }
   .first-info {
     height: 60%;
